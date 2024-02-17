@@ -1,11 +1,11 @@
 public class Student{
     private String name;
     private double GPA;
-    private int ACT;
+    private double ACT;
     private int SAT;
     private int essayStrength;
     private int extracurricularStrength;
-    public Student(String name,double GPA,int ACT,int SAT, int essayStrength, int extracurricularStrength){
+    public Student(String name,double GPA,double ACT,int SAT, int essayStrength, int extracurricularStrength){
         this.name = name;
         this.GPA = GPA;
         this.ACT = ACT;
@@ -19,7 +19,7 @@ public class Student{
     public double getGPA(){
         return GPA;
     }
-    public int getACT(){
+    public double getACT(){
         return ACT;
     }
     public int getSAT(){
